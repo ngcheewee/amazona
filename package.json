@@ -1,0 +1,21 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "1. Introduction\r 2. Install Tools\r 3. Create React App\r    1. npx create-react-app\r 4. Creat Git Repository\r    1. move gitignore from frontend folfer to amazona folder\r    2. remove / in build and node_module option\r    3. goto source control and commit\r 5. List Products\r    1. create product array\r    2. add product image\r    3. render products\r    4. style products\r 6. Add routing\r    1. npm i react-router-dom\r    2. create route for home screen\r    3. create route for product screen\r 7. Create Node.JS Server\r    1. run npm init in backend folder\r    2. update package.son set type: module (for using import instead of require)\r    3. create server.js to backed folder\r    4. npm install express\r    5. create server.js\r    6. add start command as node backend/server.js\r    7. require express\r    8. create route for / return backed is ready\r    9. copy and paste data.js from frontend to backed\r    10. create route for api/products\r    11. npm install nodemon --save-dev and add 'start' in scripts option of package.json\r    12. run npm start\r 8. Fetch products from Backed\r    1. set proxy in package.json\r    2. npm install axios\r    3. use state hook\r    4. use effect hook\r    5. use reducer hook",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngcheewee/amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngcheewee/amazona/issues"
+  },
+  "homepage": "https://github.com/ngcheewee/amazona#readme"
+}
